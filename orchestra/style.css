@@ -90,8 +90,6 @@ figcaption p {
 
 /* BLOCKQUOTE --------------------- */
 
-/* BLOCKQUOTE --------------------- */
-
 blockquote {
     font-style: italic;
     font-size: 1.3em;
@@ -159,6 +157,11 @@ figure, header, .read-more {
 a, a:visited, a:focus {
     color: #136a99;
     text-decoration: none;
+}
+
+/* Solid dividing border  */
+hr.solid-divider {
+  border-top: 3px solid #bbb;
 }
 
 /* Mobile Responsive */
