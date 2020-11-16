@@ -37,10 +37,12 @@ article, header {
 h1 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 38px;
+    text-shadow: .5px .5px #000;
     font-weight: 600;
     line-height: 1.2;
     margin: 0;
     padding-top: 20px;
+    color: #696969
 }
 
 figcaption, .dateline {
@@ -79,7 +81,7 @@ figure {
 }
 
 figcaption {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0px 30px;
     line-height: 1.1;
 }
