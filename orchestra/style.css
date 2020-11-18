@@ -8,7 +8,7 @@
 h1 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 46px;
-    max-width: 600px;
+    max-width: 800px;
     text-shadow: 2px 2px pink;
     font-weight: 600;
     line-height: 1.2;
@@ -30,7 +30,7 @@ h1 {
 
 p {
   margin: auto;
-  max-width: 500px;
+  max-width: 700px;
   font-size: 18px;
   line-height: 1.5;
   padding: 9px 0px;
@@ -40,7 +40,7 @@ p {
 
 h2 {
   margin: auto;
-  max-width: 500px;
+  max-width: 700px;
   line-height: 1.5;
   padding: 9px 0px 20px 0px;
   text-align: justify;
@@ -74,13 +74,15 @@ article, header {
 
 /* GRID --------------------- */
 
-/* Chart */
+/* Charts */
 
 .chart {
   max-width: 700px;
   margin: 0px auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+}
+
+iframe {
+  margin: 40px auto;
 }
 
 /* TYPOGRAPHY --------------------- */
@@ -109,7 +111,16 @@ figcaption, .dateline {
   font-size: 88px;
   line-height: 0.65;
   margin: 0.1em 0.1em 0 0;
-  color: #2556a1
+  color: #2556a1;
+}
+    
+.first:first-letter {
+  float: left;
+  font-size: 88px;
+  line-height: 0.65;
+  margin: 0.1em 0.1em 0 0;
+  color: #2556a1;
+  }
 }
 /* FIGURE AND IMAGES --------------------- */
 
@@ -119,30 +130,20 @@ figcaption {
   font-size: 14px;
   line-height: 1.2;
   margin: auto;
-  max-width: 500px;
+  max-width: 700px;
   padding: 9px 0px;
 }
 
 .credit {
   font-size: 12px;
-  margin-left: 200px;
+  max-width: 700px;
   margin-bottom: -15px;
 }
 
-img {
-    width: 50%;
-    margin-left: 200px;
-}
-
 figure {
-    margin: 0;
-    margin-left: -30px;
-    margin-right: -30px;
+  width: 75%;
 }
 
-figcaption p {
-    margin-top: 0px;
-}
 
 /* BLOCKQUOTE --------------------- */
 
@@ -182,7 +183,7 @@ blockquote cite {
     color: gray;
     text-align: right;
     margin-top: 1rem;
-    margin-right: 130px;
+    padding-right: 15px;
 }
 
 blockquote cite::before {
@@ -204,7 +205,7 @@ a, a:visited, a:focus {
 /* Solid dividing border  */
 hr.solid-divider {
   border-top: 3px solid #bbb;
-  max-width: 500px;
+  max-width: 700px;
   
 }
 
