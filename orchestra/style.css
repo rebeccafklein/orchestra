@@ -4,6 +4,49 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300&display=swap');
 
+/* Header */
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 46px;
+    max-width: 600px;
+    text-shadow: 2px 2px pink;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 80px auto 30px auto;
+    padding-top: 20px;
+    color: #2556a1;
+}
+
+.byline, .dateline {
+    text-transform: uppercase;
+}
+
+.byline {
+    margin-top: 15px;
+}
+
+
+/* Article body */
+
+p {
+  margin: auto;
+  max-width: 500px;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 9px 0px;
+  text-align: justify;
+  background-color: white;
+}
+
+h2 {
+  margin: auto;
+  max-width: 500px;
+  line-height: 1.5;
+  padding: 9px 0px 20px 0px;
+  text-align: justify;
+  background-color: white;
+}
+
 body {
     font-size: 18px;
     margin: 0px 30px;
@@ -31,59 +74,70 @@ article, header {
 
 /* GRID --------------------- */
 
+/* Chart */
+
+.chart {
+  max-width: 700px;
+  margin: 0px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 /* TYPOGRAPHY --------------------- */
 
-h1 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 38px;
-    text-shadow: .5px .5px #000;
-    font-weight: 600;
-    line-height: 1.2;
-    margin: 0;
-    padding-top: 20px;
-    color: #696969
-}
 
 figcaption, .dateline {
     color: #999999
 }
 
-figcaption, .dateline, .byline {
+.dateline, .byline {
     font-size: 16px;
     lineheight: 1.2;
 
 }
 
-.byline, .dateline {
-    margin: 0;
-}
-
-.byline {
-    margin-top: 15px;
-}
+ /* Lead */
 
 .lead {
     font-size: 1.5em;
 }
 
+ /* Dropcap for first letter of lead*/
+
+.lead:first-letter {
+  float: left;
+  font-size: 88px;
+  line-height: 0.65;
+  margin: 0.1em 0.1em 0 0;
+  color: #2556a1
+}
 /* FIGURE AND IMAGES --------------------- */
 
+  /* Captions */
+
+figcaption {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: auto;
+  max-width: 500px;
+  padding: 9px 0px;
+}
+
+.credit {
+  font-size: 12px;
+  margin-left: 200px;
+  margin-bottom: -15px;
+}
+
 img {
-    width: 100%;
-    margin: 0;
+    width: 50%;
+    margin-left: 200px;
 }
 
 figure {
     margin: 0;
     margin-left: -30px;
     margin-right: -30px;
-}
-
-figcaption {
-    font-size: 14px;
-    margin: 0px 30px;
-    line-height: 1.1;
 }
 
 figcaption p {
@@ -128,6 +182,7 @@ blockquote cite {
     color: gray;
     text-align: right;
     margin-top: 1rem;
+    margin-right: 130px;
 }
 
 blockquote cite::before {
@@ -139,22 +194,7 @@ figure, header, .read-more {
     margin-bottom: 50px;
 }
 
-.read-more {
-    margin-top: 50px;
-    background-color: #EEE;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.read-more::before {
-    content: "Read More:";
-    font-family: 'Archivo Black', sans-serif;
-    
-}
-
-.read-more p:first-child {
-    margin-top:0;
-}
+/* Hyperlinks */
 
 a, a:visited, a:focus {
     color: #136a99;
@@ -164,6 +204,20 @@ a, a:visited, a:focus {
 /* Solid dividing border  */
 hr.solid-divider {
   border-top: 3px solid #bbb;
+  max-width: 500px;
+  
+}
+
+
+  /* Footer */
+
+footer p {
+  color: grey;
+  font-size: 13px;
+}
+
+footer {
+  margin-bottom: 20px;
 }
 
 /* Mobile Responsive */
@@ -186,3 +240,4 @@ hr.solid-divider {
 @media (prefers-color-scheme: dark) {
 
 }
+
