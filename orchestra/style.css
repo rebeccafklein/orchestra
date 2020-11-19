@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Noto+Sans+JP:wght@900&family=Open+Sans:wght@400&family=Roboto:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300&display=swap');
+
 
 /* Header */
 h1 {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'noto sans JP', sans-serif;
     font-size: 46px;
-    max-width: 800px;
     text-shadow: 2px 2px pink;
     font-weight: 600;
     line-height: 1.2;
@@ -30,37 +28,33 @@ h1 {
 
 p {
   margin: auto;
-  max-width: 700px;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.6;
   padding: 9px 0px;
   text-align: justify;
   background-color: white;
+  letter-spacing: .5px;
 }
 
 h2 {
   margin: auto;
-  max-width: 700px;
   line-height: 1.5;
-  padding: 9px 0px 20px 0px;
+  padding: 20px 0px 20px 0px;
   text-align: justify;
   background-color: white;
+  letter-spacing: .5px;
 }
 
 body {
     font-size: 18px;
     margin: 0px 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "open sans", sans-serif;
     line-height: 1.6;
 }
 
 .grid-container {
     display:grid;
     grid-template-columns: repeat(8, 1fr);
-}
-
-section.lead-image {
-    grid-column-end: span 12;
 }
 
 
@@ -72,17 +66,21 @@ article, header {
     flex: none !important;
 }
 
+/* section.lead-image {
+    grid-column-end: span 12;
+}
+*/
+
 /* GRID --------------------- */
 
 /* Charts */
 
 .chart {
-  max-width: 700px;
   margin: 0px auto;
 }
 
 iframe {
-  margin: 40px auto;
+  margin: 30px auto;
 }
 
 /* TYPOGRAPHY --------------------- */
@@ -205,7 +203,7 @@ a, a:visited, a:focus {
 /* Solid dividing border  */
 hr.solid-divider {
   border-top: 3px solid #bbb;
-  max-width: 700px;
+  
   
 }
 
